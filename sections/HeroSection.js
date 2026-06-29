@@ -7,8 +7,8 @@ export default {
                     <h2 class="text-2xl text-gray-300 font-semibold">{{ speciality }}</h2>
                     <p class="text-gray-400 text-base leading-relaxed max-w-xl">{{ description }}</p>
                     <div class="flex items-center gap-4">
-                        <button class="bg-brand-teal text-brand-dark px-6 py-3 rounded hover:bg-brand-tealHover transition-all">View Projects</button>
-                        <button class="border border-gray-600 px-6 py-3 hover:bg-brand-button transition-colors">Contact Me</button>
+                        <button class="bg-brand-teal text-brand-dark px-6 py-3 rounded hover:bg-brand-tealHover transition-all"><a href="#projects">View Projects</button>
+                        <button class="border border-gray-600 px-6 py-3 hover:bg-brand-button transition-colors"><a href="#contact">Contact Me</button>
                     </div>
                 </div>
                 <div class="flex justify-center md:justify-end">
