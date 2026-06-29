@@ -18,7 +18,7 @@ export default {
     template: `
         <div class="min-h-screen flex flex-col justify-between text-white bg-brand-dark">
             <navbar-component />
-            <main class="flex-grow pt-24">
+            <main class="flex-grow">
                 <hero-section />
                 <about-section />
                 <projects-section />

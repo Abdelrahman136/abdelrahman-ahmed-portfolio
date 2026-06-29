@@ -1,7 +1,7 @@
 export default {
     template: `
         <div id="home" class="max-w-7xl scroll-mt-16 mx-auto px-8 md:px-12 pt-24 pb-24 mt-8">
-            <div class="pt-24 pb-24 grid grid-cols-1 md:grid-cols-2 gap-12 items-center text-white">
+            <div class="pt-16 pb-24 grid grid-cols-1 md:grid-cols-2 gap-12 items-center text-white">
                 <div class="space-y-6 pt-8">
                     <h1 class="text-5xl font-bold">{{ greeting }} <span class="text-brand-teal">{{ name }}</span></h1>
                     <h2 class="text-2xl text-gray-300 font-semibold">{{ speciality }}</h2>
