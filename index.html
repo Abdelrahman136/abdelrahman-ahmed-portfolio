@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdelrahman Ahmed Portofolio</title>
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#090d16',
+                            darkTheme2: '#0e1422',
+                            dark3: '#0e1422',
+                            darkHover: '#06b6d4',
+                            teal: '#14b8a6',
+                            tealHover: '#0d9488',
+                            card: 'rgba(17, 24, 39, 0.4)',
+                            border: 'rgba(31, 41, 55, 0.8)',
+                            button: '#14b8a61a',
+                            textHover: '#0e1422',
+                            textHoverTheme2: '#06b6d4',
+                            text: '#d1d5db'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-dark"> <!-- bg-[#111827] -->
+    <div id="app">
+    </div>
+
+    <script type="module">
+        import App from './App.js';
+        Vue.createApp(App).mount('#app')
+    </script>
+</body>
+</html>
